@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+3:wght@400;600;700&display=swap');
+*{padding: 0;margin: 0;box-sizing: border-box;}
+body {margin: 0; padding: 0; box-sizing: border-box;font-family: 'Roboto', sans-serif; background-color: azure;}
+img{max-width: 100%; display: block;}
+
+li{list-style-type: none;}
+
+a{ text-decoration: none;}
+
+/* Header  */
+.header {background-color: #fff;box-shadow: 10px 3px 27px 5px rgba(0, 0, 0, 0.37);z-index: 50;display: flex;}
+.header .header_logo{flex: 1;  padding-left: 60px; padding-top: 15px; padding-bottom: 15px;}
+.header .header_links > ul{text-align: right; margin-right: 20px;}
+.header .header_links > ul > li{display: inline-block;}
+.header .header_links > ul > li > a {margin-top: 12px;color: #333;text-align: center;padding: 14px 16px;text-decoration: none;font-size: 18px;display: inline-block;font-family: 'Roboto', sans-serif;position: relative;}  
+.header .header_links > ul > li > a::after{position: absolute;content: '';left: 0;width: 0;bottom: 0;height: 2px;background-color: red;transition: .2s;}
+.header .header_links >ul>li>a:hover::after{width: 100%;}
+.header .header_links ul > li .contact:hover{color: #FFFFFF;background-color: red;} 
+.header .header_links ul > li .contact{ border: 1px solid #FFFFFF;padding: 5px 20px 5px 20px;border-radius: 2px;margin-left: 4px;margin-top: 0;margin-right: 20px;/* box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6); */}   
+.header .header_links > ul > li > a:hover {color: #212121;}
+
+/* Navbar */
